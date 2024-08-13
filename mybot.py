@@ -50,7 +50,7 @@ my_shedule = {
         {"type":"class","status":"yes","name":'ISL',"timein":'12:00',"timeout":'13:00',"venue":'A18-1A'},
         {"type":"lab","status":"yes","name":'NA',"timein":'14:00',"timeout":'16:00',"venue":'NA'},
     ]
-} 
+}
 
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
