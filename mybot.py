@@ -1,5 +1,10 @@
-BOT_TOKEN  = '7126674586:AAEV0RK_RqorhO-KaRvsgOlcyVW13qEZa0Y'
-BOT_USERNAME = '@my1470plannerbot'
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+BOT_TOKEN  = os.getenv("BOT_TOKEN")
+BOT_USERNAME = os.getenv("BOT_USERNAME")
 
 
 my_shedule = {
